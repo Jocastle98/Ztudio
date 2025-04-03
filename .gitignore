@@ -1,0 +1,64 @@
+# UnrealEngine base ignore (기존 내용 유지)
+.vs/
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+SourceArt/**/*.png
+SourceArt/**/*.tga
+Binaries/*
+Plugins/*/Binaries/*
+Build/*
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+*_BuiltData.uasset
+Saved/*
+Intermediate/*
+Plugins/*/Intermediate/*
+DerivedDataCache/*
+
+# 언리얼 모바일 아이콘/리소스 예외 유지
+!Build/IOS/Resources/
+Build/IOS/Resources/*
+!Build/IOS/Resources/Graphics/
+Build/IOS/Resources/Graphics/*
+!Build/IOS/Resources/Graphics/*.png
+!Build/Android/res/
+Build/Android/res/*
+!Build/Android/res/*/
+Build/Android/res/*/*
+!Build/Android/res/*/*.png
+Plugins/**/Binaries/*
+Plugins/**/Intermediate/*
+
+# ✅ Content 폴더 전체 무시
+Content/*
+
+# ⚠️ 단, .gitkeep 등 비어있는 폴더 추적 원할 경우엔 예외 처리 가능
+# !Content/.gitkeep
+
+# End
